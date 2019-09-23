@@ -1,7 +1,10 @@
 # GetGoingData
 
 ## Introduction
+
 This repository contains data we collected via the GetGoing phone dialogue system starting from May 3 2019. This dataset includes Google ASR transcriptions and recordings for each call. For the first public version, we removed all calls from our developers (including advisors) and calls that have empty user speech. Some calls may be spam (machine speech), these are to be removed in the next version. 
+
+The paper describing the system, as well as a portion of the data collected, can be found at https://arxiv.org/pdf/1909.01322.pdf 
 
 To talk to the system, you can call +1(412)259-5311.
 
@@ -48,5 +51,15 @@ If you have more questions about the Let's Go systems and dataset. Please contac
 
 [Shikib Mehri](http://shikib.com) (Carnegie Mellon University)
 
-## References
-Shikib Mehri, Alan W Black, Maxine Eskenazi. [**CMU GetGoing: An Understandable and Memorable Dialog System for Seniors**](https://arxiv.org/pdf/1909.01322.pdf) In Workshop on Dialog for Good (DiGo) in SIGDIAL, 2019.
+## Citing
+
+Please cite the following if you use this data.
+
+```
+@article{mehri2019cmu,
+  title={CMU GetGoing: An Understandable and Memorable Dialog System for Seniors},
+  author={Mehri, Shikib and Black, Alan W and Eskenazi, Maxine},
+  journal={arXiv preprint arXiv:1909.01322},
+  year={2019}
+}
+```

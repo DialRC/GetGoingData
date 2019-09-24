@@ -13,13 +13,10 @@ Please note the license for use of this data [License](#license). Please agree t
 
 ## Description
 
-Directory GGMASTER contains data from real users, and directory PhoneLetsGo contains data from paid (AMT) users. They both share the same directory structure as follows (an example for GGMASTER):
+The dataset has the following directory structure:
 
-The dataset is divided by months. Each month of data has the following directory structure (an example for July, 2014):
 ```
-GGMASTER  
-│
-└──logs
+logs
    │
    └───130b95bea148774bba89776aa1092b1 (a directory for each call)
    │    │   log.json (Google ASR transcription, system speech starts with TTS, and user speech start with USER)

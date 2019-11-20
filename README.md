@@ -38,7 +38,7 @@ Please download and agree to the [`License`](LICENSE).
 If you download and use the Let's Go data, you agree that you will cite it in all publications resulting from its use.
 
 ## Contacts
-If you have more questions about the Let's Go systems and dataset. Please contact us:
+If you have more questions about the GetGoing systems and dataset. Please contact us:
 
 [Alan W. Black](http://www.cs.cmu.edu/~awb/) (Carnegie Mellon University)
 

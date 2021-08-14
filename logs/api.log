@@ -1,0 +1,144 @@
+44a5fa927f6436cf93450a32611a085f
+Senior friendly None
+Senior friendly None
+Executing LetsGoPublic
+Executing GiveIntroduction
+Executing InformWelcome
+Completed InformWelcome
+Succeeded InformWelcome
+Completed GiveIntroduction
+Succeeded GiveIntroduction
+Executing LetsGoPublic
+Executing PerformTask
+Executing GetQuerySpecs
+Executing DiscussMode
+Succeeded RequestMode
+Executing RequestMode
+<speak>  Welcome to CMU Get Going. Your conversation will be recorded securely in order to help researchers improve voice-based assistants but your phone number will not be shared. By voluntarily continuing you confirm that you are 18 or older.     How would you like to travel today? I can give you public transit directions or driving directions.  </speak>
+44a5fa927f6436cf93450a32611a085f
+DEFAULT []
+TAILORED []
+d85ca36e910bd652a10b9c711d196b26
+Senior friendly None
+RETURN USER
+Senior friendly None
+Executing LetsGoPublic
+Executing GiveIntroduction
+Executing InformWelcome
+Completed InformWelcome
+Succeeded InformWelcome
+Completed GiveIntroduction
+Succeeded GiveIntroduction
+Executing LetsGoPublic
+Executing PerformTask
+Executing GetQuerySpecs
+Executing DiscussMode
+Succeeded RequestMode
+Executing RequestMode
+<speak>   Welcome to CMU GetGoing.   How would you like to travel today? I can give you public transit directions or driving directions.  </speak>
+d85ca36e910bd652a10b9c711d196b26
+['driving_B-DRIVING', 'directions_I-YES']
+['B-DRIVING']
+Completed RequestMode
+Succeeded RequestMode
+Executing DiscussMode
+Executing InformMode
+Completed InformMode
+Succeeded InformMode
+Completed DiscussMode
+Succeeded DiscussMode
+Executing GetQuerySpecs
+Executing GetArrivalPlace
+Succeeded RequestArrivalPlace
+Executing RequestArrivalPlace
+<speak>   No problem.  I will give you driving directions to your destination.   Where are you going?For example, you can say I'm going to Squirrel Hill </speak>
+d85ca36e910bd652a10b9c711d196b26
+['airport_B-ALOC']
+['a_registered_stop.airport ']
+Completed RequestArrivalPlace
+Succeeded RequestArrivalPlace
+Executing GetArrivalPlace
+Executing ConfirmArrivalPlace
+Requesting from user: TTS Okay, going to pittsburgh international airport.
+Completed ConfirmArrivalPlace
+Succeeded ConfirmArrivalPlace
+Completed GetArrivalPlace
+Succeeded GetArrivalPlace
+Executing GetQuerySpecs
+Executing GetDeparturePlace
+Succeeded RequestDeparturePlace
+Executing RequestDeparturePlace
+<speak>  Okay, going to pittsburgh international airport.  Where do you wanna leave from? </speak>
+d85ca36e910bd652a10b9c711d196b26
+['cmu_B-DLOC']
+['d_registered_stop.cmu ']
+Completed RequestDeparturePlace
+Succeeded RequestDeparturePlace
+Executing GetDeparturePlace
+Executing ConfirmDeparturePlace
+Requesting from user: TTS Okay, leaving from carnegie mellon university.
+Completed ConfirmDeparturePlace
+Succeeded ConfirmDeparturePlace
+Completed GetDeparturePlace
+Succeeded GetDeparturePlace
+Executing GetQuerySpecs
+Executing GetTravelTime
+Succeeded RequestTravelTime
+Executing RequestTravelTime
+<speak>  Okay, leaving from carnegie mellon university.  When do you want to travel </speak>
+d85ca36e910bd652a10b9c711d196b26
+['now_B-TIME']
+['datetime.now ']
+NO TIME MATCHES:  datetime.now
+Completed RequestTravelTime
+Succeeded RequestTravelTime
+Executing GetTravelTime
+Completed TimeTextExecute
+Succeeded TimeTextExecute
+Executing GetTravelTime
+Executing ConfirmTravelTime
+Requesting from user: TTS Okay, travelling at 12:19 am.
+Completed ConfirmTravelTime
+Succeeded ConfirmTravelTime
+Completed GetTravelTime
+Succeeded GetTravelTime
+Completed GetQuerySpecs
+Succeeded GetQuerySpecs
+Executing PerformTask
+Executing ProcessQuery
+Succeeded InformProcessing
+Executing InformProcessing
+<speak>  Okay, travelling at 12:19 am.   Hold on. I'll look up the directions.  </speak>
+d85ca36e910bd652a10b9c711d196b26
+['yes_B-YES']
+['B-YES']
+Completed InformProcessing
+Succeeded InformProcessing
+Executing ProcessQuery
+Executing ExecuteBackendAgent
+Completed ExecuteBackendAgent
+Succeeded ExecuteBackendAgent
+Executing ProcessQuery
+Executing AllSteps
+Executing InformStep
+Completed InformStep
+Succeeded InformStep
+Succeeded AllSteps
+Executing AllSteps
+Succeeded FakeConfirmUnderstanding
+Executing FakeConfirmUnderstanding
+Requesting from user: TTS <speak>if you missed anything, please say repeat, else say continue</speak>
+<speak>  There are 2 available routes, to hear a different route say ALTERNATE ROUTE. The amount of time your trip will take is approximately 26 minutes..
+Head south on Tech St toward Frew Street.
+Turn right onto Schenley Drive..
+Turn left onto Panther Hollow Road.
+Take the ramp to Boulevard of the Allies..
+Continue onto Boulevard of the Allies..
+Merge onto I-376 west via the ramp to Downtown..
+Keep left to stay on I-376 west..
+Take exit 53 toward Airport..
+Continue onto Airport Boulevard.
+  if you missed anything, please say repeat, else say continue </speak>
+d85ca36e910bd652a10b9c711d196b26
+DEFAULT ['d85ca36e910bd652a10b9c711d196b26']
+TAILORED []
